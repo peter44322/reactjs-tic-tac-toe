@@ -26,9 +26,9 @@ class TicTacToe {
     }
 
     switchPlayer() {
-        this.currentPlayer === 'X' ?
-            this.currentPlayer = 'O' :
-            this.currentPlayer = 'X';
+        this.currentPlayer === this.players[0] ?
+            this.currentPlayer = this.players[1] :
+            this.currentPlayer = this.players[0];
     }
 
     calculateGameOver() {

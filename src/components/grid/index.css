@@ -12,6 +12,7 @@ button.grid-child{
     border: solid 1px #61dafb;
     background: transparent;
     color: white;
-    font-size: 30px;
+    font-size: 85px;
+    padding: 0;
 }
 
